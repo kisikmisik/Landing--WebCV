@@ -10,7 +10,6 @@
 
 # production
 /build
-/stolen
 
 # misc
 .DS_Store

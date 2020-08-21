@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5951f9ef-31ca-4d5e-a2cb-a1cf9d5f41a0" name="Default Changelist" comment="" />
+    <list default="true" id="2d535bba-e9a9-454e-82ac-af7d92248cdd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/mySite.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fonts/FontsFree-Net-Proxima-Nova-Black.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fonts/FontsFree-Net-Proxima-Nova-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1gK2AA2yqfgv5x5WQ0GYqH7xcYl" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gPEcm2nyyCuVNvp3Mq4KHoOgYE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,18 +29,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5951f9ef-31ca-4d5e-a2cb-a1cf9d5f41a0" name="Default Changelist" comment="" />
-      <created>1597848816977</created>
+      <changelist id="2d535bba-e9a9-454e-82ac-af7d92248cdd" name="Default Changelist" comment="" />
+      <created>1598007908665</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597848816977</updated>
-      <workItem from="1597848818970" duration="1657000" />
+      <updated>1598007908665</updated>
+      <workItem from="1598007914562" duration="10145000" />
     </task>
     <servers />
   </component>
