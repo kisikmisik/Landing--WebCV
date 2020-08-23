@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./Filters.scss"
 
 let Filters = (props) => {
     return (

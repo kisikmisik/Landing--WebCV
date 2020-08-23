@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Header from "./components/Header/Header";
 import SideNav from "./components/SideNav/SideNav";
 import Sliders from "./components/Sliders/Sliders";
@@ -11,11 +11,11 @@ class App extends React.Component {
 
     render() {
         return (
-            <>
+            <div className="main-wrapper">
                 <Header/>
                 <SideNav/>
                 <Sliders/>
-            </>
+            </div>
         );
     }
 }

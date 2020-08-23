@@ -1,0 +1,27 @@
+$main-blue: #0077b5;
+//
+//@media (prefers-reduced-motion: no-preference) {
+//  .App-logo {
+//    animation: App-logo-spin infinite 20s linear;  ---- example of animation, google later
+//  }
+//}
+.main-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 15px;
+  display: grid;
+  grid-template-rows: 80px 600px;
+  grid-template-areas:
+          "header header header"
+          "sliders sliders sliders";
+}
+.button {
+  display: block;
+  box-sizing: border-box;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  height: 65px;
+  cursor: pointer;
+}

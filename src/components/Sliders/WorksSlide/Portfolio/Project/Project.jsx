@@ -1,4 +1,7 @@
 import React from "react";
+import MySiteImg from "../../../../../assets/img/catEnergy.jpg"
+import styles from "./Project.scss"
+
 
 let ProjectPopup = (props) => {
     return (
@@ -34,16 +37,20 @@ let ProjectPopup = (props) => {
 }
 let ProjectPreview = (props) => {
     return (
-        <>
-            <button className="portfolio__item-view">View project</button>
-            <ul className="portfolio__item-stack">
-                <li className="portfolio__item-tech">Webapp</li>
-                <li className="portfolio__item-tech">HTML5</li>
-                <li className="portfolio__item-tech">Sass</li>
-                <li className="portfolio__item-tech">Animations</li>
-                <li className="portfolio__item-tech">UI/UX design</li>
-            </ul>
-        </>
+        <div className="portfolio__preview-wrapper">
+            <img src={MySiteImg} alt="my site background" width="225"/>
+            <div className="portfolio__preview-text-wrapper">
+                <button className="portfolio__item-view">Details</button>
+                <ul className="portfolio__item-stack">
+                    <li className="portfolio__item-tech">Webapp</li>
+                    <li className="portfolio__item-tech">HTML5</li>
+                    <li className="portfolio__item-tech">Sass</li>
+                    <li className="portfolio__item-tech">Animations</li>
+                    <li className="portfolio__item-tech">UI/UX design</li>
+                </ul>
+            </div>
+
+        </div>
     )
 }
 

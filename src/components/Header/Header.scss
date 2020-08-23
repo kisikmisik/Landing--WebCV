@@ -1,0 +1,12 @@
+.header {
+  grid-area: header;
+  height: 80px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 100px;
+}
+.header__burger-image {
+  cursor: pointer;
+}

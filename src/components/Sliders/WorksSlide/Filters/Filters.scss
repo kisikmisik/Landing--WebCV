@@ -1,0 +1,10 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+}
+.filters__filter {
+  font-size: 14px;
+  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  width: 100px;
+  height: 45px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "./Project/Project";
+import styles from "./Portfolio.scss"
 
 let Portfolio = (props) => {
     return (

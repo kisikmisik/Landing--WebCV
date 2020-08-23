@@ -1,12 +1,14 @@
 import React from "react";
 import styles from "../Header/Header.scss"
+import burgerImage from "../../assets/img/menu.svg"
 
 let Header = (props) => {
     return (
         <header className="header">
-            <h1 className="hidden">Front-end developer, UI/UX specialist web resume, work and projects</h1>
+            <h1 className="visually-hidden">Front-end developer, UI/UX specialist web resume, work and projects</h1>
             <div className="header__burger">
-                <nav className="main-nav">
+                <img className="header__burger-image" src={burgerImage} alt="Menu" width="20"/>
+                <nav className="main-nav visually-hidden">
                     <ul className="main-nav__list">
                         <li className="main-nav__item"><a href="#home">Home</a></li>
                         <li className="main-nav__item"><a href="#works">Works</a></li>
