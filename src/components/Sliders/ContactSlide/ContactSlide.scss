@@ -1,0 +1,59 @@
+.contact {
+  position: relative;
+  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 312px;
+    left: 432px;
+    width: 25px;
+    height: 25px;
+    background: #0077b5;
+    border-radius: 50%;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 305px;
+    left: 425px;
+    width: 40px;
+    height: 40px;
+    background: #0077b5;
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+}
+.info-block {
+  position: absolute;
+  box-sizing: border-box;
+  top: 150px;
+  right: 40px;
+  background: #0b0b0b;
+  width: 300px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0;
+  font-size: 14px;
+}
+.info-block__address {
+  font-style: normal;
+}
+.info-block__contact-btn {
+  display: block;
+  width: 130px;
+  height: 40px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  background: #0077b5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Proxima Nova Bold", Arial, sans-serif;
+}
+.info-block__email, .info-block__phone {
+  text-decoration: underline;
+}
+

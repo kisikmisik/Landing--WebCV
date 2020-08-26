@@ -1,0 +1,106 @@
+.hire-me__form {
+  padding-top: 40px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hire-me__work-type-wrapper {
+  padding-top: 40px;
+  border: none;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  width: 100%;
+
+  legend {
+    font-size: 30px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .hire-me__work {
+    width: 200px;
+    height: 55px;
+    font-family: "Proxima Nova Bold", Arial, sans-serif;
+    position: relative;
+  }
+}
+
+.hire-me__work input:checked ~ .hire-me__work-text {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  align-items: center;
+  box-sizing: border-box;
+  outline: 2px solid #0077b5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0077b5;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../../../assets/img/tick.svg");
+    background-size: cover;
+  }
+}
+
+.hire-me__row-wrapper {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.hire-me__row-wrapper--1 {
+  justify-content: space-between;
+}
+
+.hire-me__row-wrapper--2 {
+  padding-left: 123px;
+
+  label {
+    margin-right: 50px;
+  }
+}
+.hire-me__row-wrapper--3 {
+  padding-left: 230px;
+  justify-content: space-between;
+}
+.hire-me__bottom-wrapper {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+  input {
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 5px 10px;
+    background: transparent;
+    font-family: "Proxima Nova Light", Arial, sans-serif;
+    font-size: 30px;
+    width: 315px;
+    box-sizing: border-box;
+  }
+}
+.hire-me__submit {
+  display: block;
+  width: 400px;
+  font-size: 18px;
+  height: 50px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  background: #0077b5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  margin-bottom: 30px;
+}

@@ -17,7 +17,9 @@ $main-blue: #0077b5;
           "sliders sliders sliders";
 }
 .button {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   background: none;
   border: 2px solid white;

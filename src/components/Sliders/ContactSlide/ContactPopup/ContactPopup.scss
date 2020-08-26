@@ -1,0 +1,68 @@
+.contact-popup {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  left: 65px;
+  top: 0;
+  background: white;
+  color: #0b0b0b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+  input {
+    border: none;
+    border-bottom: 1px solid #0b0b0b;
+    background: transparent;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    &::placeholder {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+  }
+  textarea {
+    border: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px 10px;
+    resize: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.contact-popup__wrapper {
+  box-sizing: border-box;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+}
+.contact-popup__send {
+  border: none;
+  color: white;
+  height: 40px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background: #10a010;
+  font-size: 14px;
+}
+.contact-popup__sent {
+  color: #10a010;
+  padding-left: 20px;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    background-image: url("../../../../assets/img/tick-green.svg");
+    background-size: cover;
+  }
+}

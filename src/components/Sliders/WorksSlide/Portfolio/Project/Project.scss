@@ -1,11 +1,39 @@
 .portfolio__preview-wrapper {
   position: relative;
   cursor: pointer;
+  height: 155px;
 }
 .portfolio__preview-text-wrapper {
   position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: black;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.portfolio__item-view {
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  letter-spacing: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: #0077b5;
+  cursor: pointer;
+}
+.portfolio__preview-wrapper:hover .portfolio__preview-text-wrapper {
+  display: flex;
+}
+.project {
+
 }

@@ -5,11 +5,11 @@ let SideNav = (props) => {
     return (
         <nav className="side-nav">
             <ol className="side-nav__list">
-                <li className="side-nav__item active">
+                <li className="side-nav__item">
                     <span>1</span>
                     <span>Home</span>
                 </li>
-                <li className="side-nav__item">
+                <li className="side-nav__item active">
                     <span>2</span>
                     <span>Works</span>
                 </li>
