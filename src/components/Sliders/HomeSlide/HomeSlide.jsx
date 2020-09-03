@@ -6,7 +6,7 @@ import githubImg from "../../../assets/img/github.svg"
 
 let HomeSlide = (props) => {
     return (
-        <section className="home slide slide--1">
+        <section id="slide-1" className="home slide slide--1">
             <div className="home__top-wrapper">
                 <h2 className="home__title">Hi,<br/> I am Vladimir,<br/> web developer</h2>
                 <img src={myPortrait} alt="Portrait of ugly me" className="home__portrait" width="310" height="auto"/>

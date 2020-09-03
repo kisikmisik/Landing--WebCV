@@ -14,7 +14,9 @@
   font-family: "Proxima Nova Light", Arial, sans-serif;
   font-size: 14px;
   position: relative;
+  text-transform: capitalize;
   &:before {
+    z-index: -2;
     content: "";
     display: block;
     height: 100%;
@@ -24,13 +26,14 @@
     background: #1e1f1f;
   }
   &:after {
+    z-index: -1;
     content: "";
     display: block;
     height: 80%;
     width: 5px;
     position: absolute;
     top: 60px;
-    opacity: 0.2;
+    opacity: 0.3;
     background-image: url("../../assets/img/circle.svg");
     background-size: 5px 30px;
   }
@@ -38,7 +41,7 @@
 .side-nav__item {
   cursor: pointer;
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.4;
   display: flex;
   box-sizing: border-box;
   position: relative;
@@ -55,15 +58,19 @@
     opacity: 100%;
     background-image: url("../../assets/img/circle.svg");
   }
-  span:first-child {
+  span {
     margin-left: 45px;
     margin-right: 25px;
+  }
+  a:active {
+    opacity: 1
   }
 }
 .side-nav__item.active {
   opacity: 1;
+  transform: scale(1.2);
   &:before {
-    z-index: 20;
+    z-index: -1;
     content: "";
     display: block;
     height: 7px;

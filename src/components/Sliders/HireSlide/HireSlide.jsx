@@ -3,7 +3,7 @@ import styles from "./HireSlide.scss"
 
 let HireSlide = (props) => {
     return (
-        <section className="hire-me slide slide--4">
+        <section id='slide-4' className="hire-me slide slide--4">
             <h2 className="visually-hidden">Hire me to make a website or webapp for you or your business</h2>
             <form className="hire-me__form">
                 <fieldset className="hire-me__work-type-wrapper">

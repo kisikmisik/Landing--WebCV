@@ -1,0 +1,17 @@
+.main-nav {
+
+
+}
+.main-nav__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 60px;
+  height: 80%;
+  justify-content: center;
+  padding-left: 400px;
+  text-transform: capitalize;
+}
+.main-nav__item.active {
+  text-decoration: line-through 10px #0f33ff;
+}

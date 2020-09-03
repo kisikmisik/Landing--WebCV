@@ -7,14 +7,18 @@
   height: 600px;
   box-sizing: border-box;
   //border: 1px solid red;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.main > section {
+  scroll-snap-align: start;
 }
 .slide {
   width: 900px;
   height: 600px;
   box-sizing: border-box;
-  scroll-snap-align: start;
 }

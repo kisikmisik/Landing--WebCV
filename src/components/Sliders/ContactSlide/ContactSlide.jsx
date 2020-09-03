@@ -5,7 +5,7 @@ import ContactPopup from "./ContactPopup/ContactPopup";
 
 let ContactSlide = (props) => {
     return (
-        <section className="contact slide slide--3">
+        <section id="slide-3" className="contact slide slide--3">
             <h2 className="visually-hidden">Contact information, address, map location and get in touch form</h2>
             <img src={mapImage} alt="Krakow on map" height="100%" className="contact__map"/>
             <article className="info-block">
