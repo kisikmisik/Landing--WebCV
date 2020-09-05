@@ -8,7 +8,7 @@ let WorksSlide = (props) => {
         <section id="slide-2" className="works slide slide--2">
             <h2 className="works__title">Portfolio</h2>
             <Filters/>
-            <Portfolio/>
+            <Portfolio projects={props.projects}/>
         </section>
     )
 }

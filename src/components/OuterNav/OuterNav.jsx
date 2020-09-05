@@ -5,7 +5,7 @@ let OuterNav = (props) => {
     return (
         <nav className={props.isOuterMenu ? "main nav" : "main nav visually-hidden"}>
             <ul className="main-nav__list">
-                {props.navItem.map(el => <NavItem currentSlide={props.currentSlide}
+                {props.navItem.map(el => <NavItem key={el.name} currentSlide={props.currentSlide}
                                                   name={el.name}
                                                   number={el.itemNumber}
                                                   changeOuterMenuStatus={props.changeOuterMenuStatus} />)}

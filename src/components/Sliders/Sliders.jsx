@@ -9,7 +9,7 @@ let Sliders = (props) => {
     return (
         <main id='mainSliders' className="main">
             <HomeSlide/>
-            <WorksSlide/>
+            <WorksSlide projects={props.projects}/>
             <ContactSlide/>
             <HireSlide/>
         </main>

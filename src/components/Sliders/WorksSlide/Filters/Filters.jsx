@@ -5,6 +5,7 @@ let Filters = (props) => {
     return (
         <div className="works__filters filters">
             <button className="filters__filter button">Show all</button>
+            <button className="filters__filter button">HTML/CSS</button>
             <button className="filters__filter button">React.js</button>
             <button className="filters__filter button">JavaScript</button>
             <button className="filters__filter button">Less</button>

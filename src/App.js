@@ -22,8 +22,6 @@ class App extends React.Component {
             }
         })
     }
-
-
     changeSideNav(sliderWrapper) {
         // this condition below checks how many pixels slider wrapper has been scrolled, and selects side nav item depending on that
         if (sliderWrapper.scrollTop < 50) {
@@ -44,7 +42,8 @@ class App extends React.Component {
                     <SideNav changeCurrentSlide={this.props.changeCurrentSlide}
                              navItems={this.props.navItems}
                              currentSlide={this.props.currentSlide}/>
-                    <Sliders currentSlide={this.props.currentSlide}/>
+                    <Sliders currentSlide={this.props.currentSlide}
+                             projects={this.props.projects} />
                 </div>
                 <OuterNav isOuterMenu={this.props.isOuterMenu}
                           currentSlide={this.props.currentSlide}
@@ -60,7 +59,8 @@ let mapStateToProps = (state) => {
     return {
         currentSlide: state.mainReducer.currentSlide,
         navItems: state.mainReducer.navItems,
-        isOuterMenu: state.mainReducer.isOuterMenu
+        isOuterMenu: state.mainReducer.isOuterMenu,
+        projects: state.mainReducer.projects
     }
 }
 

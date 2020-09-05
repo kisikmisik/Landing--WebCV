@@ -1,7 +1,8 @@
 .portfolio__preview-wrapper {
   position: relative;
   cursor: pointer;
-  height: 155px;
+  height: 140px;
+  overflow: hidden;
 }
 .portfolio__preview-text-wrapper {
   position: absolute;
