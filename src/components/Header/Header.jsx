@@ -9,7 +9,7 @@ let Header = (props) => {
             {/*<a href="#slide-4" className="hire-me__submit">Hire me</a>*/}
             <div className="header__burger" id="showMenu">
                 <img onClick={() => {props.changeOuterMenuStatus(true)}}
-                     className="header__burger-image" src={burgerImage} alt="Menu" width="20"/>
+                     className="header__burger-image" src={burgerImage} alt="Menu" width="35"/>
             </div>
         </header>
     )

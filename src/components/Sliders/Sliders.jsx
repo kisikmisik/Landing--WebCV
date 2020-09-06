@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import HomeSlide from "./HomeSlide/HomeSlide";
 import WorksSlide from "./WorksSlide/WorksSlide";
 import ContactSlide from "./ContactSlide/ContactSlide";
@@ -9,7 +9,7 @@ let Sliders = (props) => {
     return (
         <main id='mainSliders' className="main">
             <HomeSlide/>
-            <WorksSlide projects={props.projects}/>
+            <WorksSlide projects={props.projects} filters={props.filters}/>
             <ContactSlide/>
             <HireSlide/>
         </main>

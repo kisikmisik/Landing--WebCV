@@ -43,7 +43,8 @@ class App extends React.Component {
                              navItems={this.props.navItems}
                              currentSlide={this.props.currentSlide}/>
                     <Sliders currentSlide={this.props.currentSlide}
-                             projects={this.props.projects} />
+                             projects={this.props.projects}
+                             filters={this.props.filters} />
                 </div>
                 <OuterNav isOuterMenu={this.props.isOuterMenu}
                           currentSlide={this.props.currentSlide}
@@ -60,7 +61,8 @@ let mapStateToProps = (state) => {
         currentSlide: state.mainReducer.currentSlide,
         navItems: state.mainReducer.navItems,
         isOuterMenu: state.mainReducer.isOuterMenu,
-        projects: state.mainReducer.projects
+        projects: state.mainReducer.projects,
+        filters: state.mainReducer.filters
     }
 }
 

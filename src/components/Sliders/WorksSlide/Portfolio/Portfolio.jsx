@@ -11,6 +11,7 @@ let Portfolio = (props) => {
         changeClickedProjectId(projectId)
         changeProjectPopupStatus(true)
     }
+
     return (
         <ul className="works__portfolio portfolio">
             {props.projects.map(project => <Project
