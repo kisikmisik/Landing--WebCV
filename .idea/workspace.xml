@@ -9,9 +9,9 @@
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Filters/Filters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Filters/Filters.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Filters/Filters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Filters/Filters.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/Project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/Project.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/Project.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/ProjectPopup/ProjectPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/ProjectPopup/ProjectPopup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/ProjectPopup/ProjectPopup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/ProjectPopup/ProjectPopup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/WorksSlide.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/WorksSlide.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/mainReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/mainReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
       <workItem from="1599145397526" duration="14920000" />
       <workItem from="1599218895837" duration="5718000" />
       <workItem from="1599312805888" duration="14387000" />
-      <workItem from="1599350702000" duration="9035000" />
+      <workItem from="1599350702000" duration="14980000" />
     </task>
     <servers />
   </component>

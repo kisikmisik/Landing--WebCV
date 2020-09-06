@@ -5,23 +5,23 @@ import ProjectPopup from "./Project/ProjectPopup/ProjectPopup";
 
 let Portfolio = (props) => {
     let [isProjectPopupVisible, changeProjectPopupStatus] = useState(false)
-    let [clickedProjectId, changeClickedProjectId] = useState(null)
+    let [clickedProject, changeClickedProject] = useState(null)
 
-    let showProjectPopup = (projectId) => {
-        changeClickedProjectId(projectId)
+    let showProjectPopup = (projectName) => {
+        let clickedProject = props.projects.filter(project => project.title === projectName)
+        changeClickedProject(clickedProject)
         changeProjectPopupStatus(true)
     }
 
     return (
         <ul className="works__portfolio portfolio">
-            {props.projects.map(project => <Project
-                key={project.id}
-                id={project.id}
-                imageLink={project.smallImage}
-                showProjectPopup={showProjectPopup} />)}
-            {isProjectPopupVisible && <ProjectPopup changeProjectPopupStatus={changeProjectPopupStatus}
-                                                    projects={props.projects}
-                                                    clickedProjectId={clickedProjectId}/>}
+            {props.projects.map(project => <Project key={project.id}
+                                                    imageLink={project.smallImage}
+                                                    showProjectPopup={showProjectPopup}
+                                                    title={project.title} />)}
+            {isProjectPopupVisible &&
+                <ProjectPopup changeProjectPopupStatus={changeProjectPopupStatus}
+                                clickedProject={clickedProject[0]}/>}
         </ul>
     )
 }
