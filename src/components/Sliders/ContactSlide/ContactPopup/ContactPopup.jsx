@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./ContactPopup.scss"
 
 let ContactPopup = (props) => {
+    let [isMessageSent, changeMessageStatus] = useState(false)
+    let handleSendClick = () => {
+        changeMessageStatus(true);
+    }
     return (
         <form className="contact-popup">
             <div className="contact-popup__wrapper">
@@ -16,19 +20,19 @@ let ContactPopup = (props) => {
                 </label>
                 <label className="contact-popup__input-wrapper">
                     <p className="contact-popup__label">Title:</p>
-                    <input type="text" className="contact-popup__name" placeholder="Theme" maxLength="50"/>
+                    <input type="text" className="contact-popup__name" placeholder="Theme" maxLength="50" required={true}/>
                 </label>
                 <label className="contact-popup__input-wrapper">
                     <p className="contact-popup__label">Message:</p>
-                    <textarea cols="30" rows="8"
+                    <textarea cols="30" rows="5"
                               className="contact-popup__message"
                               placeholder="Type your message.."
                               maxLength="200"
                               required={true}/>
                 </label>
-                {"isSent" ?
-                    <p className="contact-popup__sent">Your message has been sent. Thank you!</p> :
-                    <button type="submit" className="contact-popup__send">Send message</button>
+                {isMessageSent ?
+                    <p className="contact-popup__sent">Thank you! You'll receive an answer within an hour.</p> :
+                    <button onClick={handleSendClick} type="submit" className="contact-popup__send">Send message</button>
                 }
 
             </div>

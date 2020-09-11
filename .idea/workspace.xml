@@ -2,17 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df8fbb13-e1ea-480b-a4b3-350f9f0929d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/Resume-Volodymyr-Nofenko.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projectImages/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projectImages/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projectImages/pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/pin.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sliders/Sliders.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/Sliders.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideNav/SideNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideNav/SideNav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactPopup/ContactPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactPopup/ContactPopup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactPopup/ContactPopup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactPopup/ContactPopup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactSlide.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactSlide.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactSlide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactSlide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/HireSlide/HireSlide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/HireSlide/HireSlide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/HomeSlide/HomeSlide.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/HomeSlide/HomeSlide.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/HomeSlide/HomeSlide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/HomeSlide/HomeSlide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/Sliders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/Sliders.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Filters/Filters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Filters/Filters.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Filters/Filters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Filters/Filters.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/Project.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/Project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/Project.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/ProjectPopup/ProjectPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/ProjectPopup/ProjectPopup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/ProjectPopup/ProjectPopup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/ProjectPopup/ProjectPopup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/mainReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/mainReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/WorksSlide.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/WorksSlide.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/WorksSlide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/WorksSlide.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +88,9 @@
       <workItem from="1599145397526" duration="14920000" />
       <workItem from="1599218895837" duration="5718000" />
       <workItem from="1599312805888" duration="14387000" />
-      <workItem from="1599350702000" duration="14980000" />
+      <workItem from="1599350702000" duration="19114000" />
+      <workItem from="1599462921475" duration="29531000" />
+      <workItem from="1599717159248" duration="20755000" />
     </task>
     <servers />
   </component>
@@ -90,9 +109,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1599340704408" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599363430214">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599804459029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599363430214" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599804459029" />
   </component>
 </project>

@@ -5,8 +5,11 @@ let ProjectPopup = (props) => {
         return (
             <article className="portfolio__item-popup project">
                 <div className="project__wrapper">
-                    <img src={props.clickedProject.bigImage}
-                         alt="project preview project__left-section" className="project__preview" width="100%"/>
+                    <div className="project__preview-wrapper">
+                        <img src={props.clickedProject.bigImage}
+                             alt="project preview project__left-section" className="project__preview" width="100%"/>
+                    </div>
+
                     <div className="project__right-section">
                         <h3 className="project__title">{props.clickedProject.title}</h3>
                         <p className="project__about">{props.clickedProject.about}</p>

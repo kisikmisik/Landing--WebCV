@@ -6,7 +6,16 @@
   justify-content: flex-end;
   align-items: center;
   padding-right: 150px;
+  @media (max-width: 800px) {
+    display: none;
+  }
+  @media (max-width: 1350px) {
+    display: flex;
+  }
 }
 .header__burger-image {
   cursor: pointer;
+  @media (max-width: 800px) {
+    visibility: hidden;
+  }
 }

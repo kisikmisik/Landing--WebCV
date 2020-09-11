@@ -3,6 +3,7 @@ import styles from "./Filters.scss"
 
 let Filters = (props) => {
     let handleFilterClick = (evt) => {
+        props.changeCurrentMobileFilterLabel(evt.target.textContent)
         let filters = document.querySelectorAll('.filters__filter')
         for (let i = 0; i < filters.length; i++) {
             if (filters[i].classList.contains('active')) {
@@ -10,6 +11,9 @@ let Filters = (props) => {
             }
         }
         evt.target.classList.add('active')
+        if (document.documentElement.clientWidth <= 800) {
+            props.changeMobileFiltersVisibility(false)
+        }
         return props.changeCurrentFilter(evt.target.textContent)
     }
     return (

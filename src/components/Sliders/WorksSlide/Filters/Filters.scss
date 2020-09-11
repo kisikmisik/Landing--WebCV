@@ -1,13 +1,28 @@
 .filters {
   display: flex;
   justify-content: space-between;
+  @media (max-width: 700px) {
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    z-index: 600;
+    background: #0b0b0b;
+  }
 }
+
 .filters__filter {
   font-size: 14px;
   font-family: "Proxima Nova Bold", Arial, sans-serif;
   width: 100px;
   height: 45px;
+  @media (max-width: 700px) {
+    font-size: 13px;
+    width: 90px;
+    height: 40px;
+  }
 }
+
 .filters__filter.active {
   background: #0f33ff;
   border: none;

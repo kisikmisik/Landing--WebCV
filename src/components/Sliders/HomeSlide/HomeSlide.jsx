@@ -10,8 +10,10 @@ let HomeSlide = (props) => {
             <div className="home__top-wrapper">
                 <h2 className="home__title">Hi,<br/> I am Vladimir,<br/> web developer</h2>
                 <img src={myPortrait} alt="Portrait of ugly me" className="home__portrait" width="310" height="auto"/>
-                <button className="home__button">Hire me</button>
-                <button className="home__button">Resume</button>
+                <div className="home__links-wrapper">
+                    <a href="#slide-4" className="home__button">Hire me</a>
+                    <a href="Resume-Volodymyr-Nofenko.pdf" target="_blank" className="home__button">Resume</a>
+                </div>
             </div>
             <div className="home__links">
                 <a href="https://www.linkedin.com/in/vnofenko/"
@@ -19,12 +21,15 @@ let HomeSlide = (props) => {
                     <img src={linkedinImg} alt="linkedin icon" width="30"/>
                     <span>linkedin</span>
                 </a>
-                <button className="button home__link--portfolio">Portfolio</button>
+                <a href="#slide-2" className="button home__link--portfolio">Portfolio</a>
                 <a href="https://github.com/kisikmisik"
                    className="home__link--github link-button">
                     <img src={githubImg} alt="github icon" width="35"/>
                     <span>github</span>
                 </a>
+            </div>
+            <div className="home__swipe-wrapper">
+                <span className="home__swipe">Swipe up</span>
             </div>
         </section>
     )

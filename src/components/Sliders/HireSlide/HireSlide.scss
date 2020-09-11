@@ -1,3 +1,8 @@
+.slide--4 {
+  @media (max-width: 800px) {
+    margin-top: 0;
+  }
+}
 .hire-me {
   display: flex;
   flex-direction: column;
@@ -5,11 +10,15 @@
   align-items: center;
 }
 .hire-me__form {
-  padding-top: 40px;
+  padding-top: 0;
   width: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (max-width: 800px) {
+    width: 100%;
+    padding-top: 0;
+  }
 }
 
 .hire-me__work-type-wrapper {
@@ -24,6 +33,7 @@
     width: 100%;
     display: inline-block;
     text-align: center;
+    margin-bottom: 20px;
   }
 
   .hire-me__work {
@@ -31,6 +41,10 @@
     height: 55px;
     font-family: "Proxima Nova Bold", Arial, sans-serif;
     position: relative;
+    @media (max-width: 800px) {
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
   }
   .hire-me__work-text {
     -webkit-touch-callout: none; /* iOS Safari */
@@ -40,12 +54,26 @@
     -ms-user-select: none;       /* Internet Explorer/Edge */
     user-select: none;           /* Non-prefixed version, currently*/
   }
+  @media (max-width: 800px) {
+    display: grid;
+    grid-template-areas: "first second"
+                          "first third";
+
+    .hire-me__work {
+      font-size: 14px;
+      width: 150px;
+    }
+  }
+}
+.hire-me__work--design {
+  @media (max-width: 800px) {
+    display: none;
+  }
 }
 
 .hire-me__work input:checked ~ .hire-me__work-text {
   display: flex;
-  justify-content: flex-end;
-  padding-right: 20px;
+  justify-content: center;
   align-items: center;
   box-sizing: border-box;
   outline: 2px solid #0f33ff;
@@ -53,41 +81,49 @@
   width: 100%;
   height: 100%;
   background: #0f33ff;
-
-  &:before {
-    content: "";
-    position: absolute;
-    top: 13px;
-    left: 18px;
-    width: 20px;
-    height: 20px;
-    background-image: url("../../../assets/img/tick.svg");
-    background-size: cover;
-  }
 }
 
 .hire-me__row-wrapper {
   display: flex;
   margin-bottom: 40px;
+  @media (max-width: 800px) {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 160px;
+    margin-bottom: 0;
+  }
+
 }
 
 .hire-me__row-wrapper--1 {
   justify-content: space-between;
+  @media (max-width: 800px) {
+    grid-area: first;
+  }
+
 }
 
 .hire-me__row-wrapper--2 {
   padding-left: 123px;
-
   label {
     margin-right: 50px;
+  }
+  @media (max-width: 800px) {
+    padding-left: 0;
+    height: auto;
+    grid-area: second;
   }
 }
 .hire-me__row-wrapper--3 {
   padding-left: 230px;
   justify-content: space-between;
+  @media (max-width: 800px) {
+    padding-left: 0;
+    grid-area: third;
+  }
 }
 .hire-me__bottom-wrapper {
-  height: 60px;
+  height: 45px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -99,9 +135,18 @@
     padding: 5px 10px;
     background: transparent;
     font-family: "Proxima Nova Light", Arial, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     width: 315px;
     box-sizing: border-box;
+    @media(max-width: 800px) {
+      margin-bottom: 30px;
+      padding-left: 20px;
+    }
+  }
+  @media(max-width: 800px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 90px;
   }
 }
 .hire-me__submit {
@@ -118,3 +163,5 @@
   font-family: "Proxima Nova Bold", Arial, sans-serif;
   margin-bottom: 30px;
 }
+
+
