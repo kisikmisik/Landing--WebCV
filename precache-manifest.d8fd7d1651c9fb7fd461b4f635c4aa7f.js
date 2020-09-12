@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a2407d64b643667afe54ffe945ddac0",
+    "revision": "663902a6c3de9070b91a6dbe9c52f358",
     "url": "/Landing--WebCV/index.html"
   },
   {
-    "revision": "3d2b19972bba7196da23",
-    "url": "/Landing--WebCV/static/css/main.f1e59535.chunk.css"
+    "revision": "14f5de67c89cb7a99904",
+    "url": "/Landing--WebCV/static/css/main.5b6a14d6.chunk.css"
   },
   {
     "revision": "5f7fa6628a144d7b1896",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Landing--WebCV/static/js/2.0e62f0a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d2b19972bba7196da23",
-    "url": "/Landing--WebCV/static/js/main.d6855827.chunk.js"
+    "revision": "14f5de67c89cb7a99904",
+    "url": "/Landing--WebCV/static/js/main.be1c757b.chunk.js"
   },
   {
     "revision": "1f548a24b5410f16ead9",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7ef0d73d026e3e416a8e21819595df7a",
     "url": "/Landing--WebCV/static/media/circle.7ef0d73d.svg"
-  },
-  {
-    "revision": "0ee3793a23a1b9413b483973695f6498",
-    "url": "/Landing--WebCV/static/media/close.0ee3793a.svg"
   },
   {
     "revision": "6180538d8f869d496c165667fd69aeaf",

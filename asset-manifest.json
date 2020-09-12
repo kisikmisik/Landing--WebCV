@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/Landing--WebCV/static/css/main.f1e59535.chunk.css",
-    "main.js": "/Landing--WebCV/static/js/main.d6855827.chunk.js",
-    "main.js.map": "/Landing--WebCV/static/js/main.d6855827.chunk.js.map",
+    "main.css": "/Landing--WebCV/static/css/main.5b6a14d6.chunk.css",
+    "main.js": "/Landing--WebCV/static/js/main.be1c757b.chunk.js",
+    "main.js.map": "/Landing--WebCV/static/js/main.be1c757b.chunk.js.map",
     "runtime-main.js": "/Landing--WebCV/static/js/runtime-main.a967a8c7.js",
     "runtime-main.js.map": "/Landing--WebCV/static/js/runtime-main.a967a8c7.js.map",
     "static/js/2.0e62f0a3.chunk.js": "/Landing--WebCV/static/js/2.0e62f0a3.chunk.js",
     "static/js/2.0e62f0a3.chunk.js.map": "/Landing--WebCV/static/js/2.0e62f0a3.chunk.js.map",
     "index.html": "/Landing--WebCV/index.html",
-    "precache-manifest.32318712d1400facc2183be1602bb1aa.js": "/Landing--WebCV/precache-manifest.32318712d1400facc2183be1602bb1aa.js",
+    "precache-manifest.d8fd7d1651c9fb7fd461b4f635c4aa7f.js": "/Landing--WebCV/precache-manifest.d8fd7d1651c9fb7fd461b4f635c4aa7f.js",
     "service-worker.js": "/Landing--WebCV/service-worker.js",
-    "static/css/main.f1e59535.chunk.css.map": "/Landing--WebCV/static/css/main.f1e59535.chunk.css.map",
+    "static/css/main.5b6a14d6.chunk.css.map": "/Landing--WebCV/static/css/main.5b6a14d6.chunk.css.map",
     "static/js/2.0e62f0a3.chunk.js.LICENSE.txt": "/Landing--WebCV/static/js/2.0e62f0a3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Landing--WebCV/static/media/FontsFree-Net-Proxima-Nova-Light.ac51ad8a.otf",
     "static/media/HomeSlide.scss": "/Landing--WebCV/static/media/arrow.7a66caad.svg",
     "static/media/SideNav.scss": "/Landing--WebCV/static/media/circle.7ef0d73d.svg",
-    "static/media/ProjectPopup.scss": "/Landing--WebCV/static/media/close.0ee3793a.svg",
     "static/media/github.svg": "/Landing--WebCV/static/media/github.6180538d.svg",
     "static/media/linkedin.svg": "/Landing--WebCV/static/media/linkedin.64dc861c.svg",
     "static/media/ContactSlide.scss": "/Landing--WebCV/static/media/pin.3d0c5526.svg",
@@ -27,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.a967a8c7.js",
     "static/js/2.0e62f0a3.chunk.js",
-    "static/css/main.f1e59535.chunk.css",
-    "static/js/main.d6855827.chunk.js"
+    "static/css/main.5b6a14d6.chunk.css",
+    "static/js/main.be1c757b.chunk.js"
   ]
 }
