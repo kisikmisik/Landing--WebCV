@@ -23,7 +23,7 @@ let NavItem = (props) => {
         }
     }
     return (
-        <li onClick={()=>{props.changeOuterMenuStatus(false)}}
+        <li
             className={"main-nav__item " + isSelected()}>
             <a href={"#slide-" + props.number}>{props.name}</a>
         </li>

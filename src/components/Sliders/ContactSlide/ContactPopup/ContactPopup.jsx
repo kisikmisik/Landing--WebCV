@@ -30,12 +30,11 @@ let ContactPopup = (props) => {
                               maxLength="200"
                               required={true}/>
                 </label>
-                {isMessageSent ?
-                    <p className="contact-popup__sent">Thank you! You'll receive an answer within an hour.</p> :
-                    <button onClick={handleSendClick} type="submit" className="contact-popup__send">Send message</button>
-                }
-
             </div>
+            {isMessageSent ?
+                <p className="contact-popup__sent">Thanks! I'll answer shortly.</p> :
+                <button onClick={handleSendClick} type="submit" className="contact-popup__send">Send message</button>
+            }
         </form>
     )
 

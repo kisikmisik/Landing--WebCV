@@ -7,8 +7,8 @@ let initialState = {
         {
             title: "Vladimir Nofenko | Web developer | Portfolio",
             id: 0,
-            bigImage: "projectImages/myWeb.jpg",
-            smallImage: "projectImages/myWeb-small.jpg",
+            bigImage: "myWeb.jpg",
+            smallImage: "myWeb-small.jpg",
             about: "This website is a showcase of my recent projects as a Front-end Web Developer and as UI/UX designer.",
             stack: ["React.js", "Redux, React-redux", "Sass", "JavaScript"],
             sourceLink: "https://github.com/kisikmisik/Landing--WebCV", siteLink: ""
@@ -16,8 +16,8 @@ let initialState = {
         {
             title: "Social Network",
             id: 1,
-            bigImage: "projectImages/socialNetwork.jpg",
-            smallImage: "projectImages/socialNetwork-small.jpg",
+            bigImage: "socialNetwork.jpg",
+            smallImage: "socialNetwork-small.jpg",
             about: "Trial social network made to show my skills in building SPA on React.js. " +
                 "Click 'Source code' to see the instructions how to try it.",
             stack: ["React.js", "Redux, React-redux", "Redux-thunk", "Redux-form", "Axios", "React-test-renderer", "JavaScript"],
@@ -27,8 +27,8 @@ let initialState = {
         {
             title: "Online-shop Cat-Energy | adaptive | 3 pages",
             id: 2,
-            bigImage: "projectImages/catEnergy.jpg",
-            smallImage: "projectImages/catEnergy-small.jpg",
+            bigImage: "catEnergy.jpg",
+            smallImage: "catEnergy-small.jpg",
             about: "This was a training project made as part of the front end developer course at htmlacademy.ru " +
                 "Pages are adaptive for tablets and smartphones. Adaptive layouts made by media queries",
             stack: ["HTML5", "Less", "Gulp", "JavaScript"],
@@ -38,8 +38,8 @@ let initialState = {
         {
             title: "Online-shop Device | 2 pages",
             id: 3,
-            bigImage: "projectImages/device.jpg",
-            smallImage: "projectImages/device-small.jpg",
+            bigImage: "device.jpg",
+            smallImage: "device-small.jpg",
             about: "A first training project made during the course of front-end development at htmlacademy.ru",
             stack: ["HTML5", "Less", "Gulp"],
             sourceLink: "https://github.com/kisikmisik/Study-project--Device",
@@ -48,8 +48,8 @@ let initialState = {
         {
             title: "Kekstagram | upload and edit your image",
             id: 4,
-            bigImage: "projectImages/kekstagram.jpg",
-            smallImage: "projectImages/kekstagram-small.jpg",
+            bigImage: "kekstagram.jpg",
+            smallImage: "kekstagram-small.jpg",
             about: "This project is a 'final exam' done as part of the front end developer course at htmlacademy.ru",
             stack: ["JavaScript", "HTML5", "Less", "Gulp"],
             sourceLink: "https://github.com/kisikmisik/Study-project--Kekstagram",
@@ -58,8 +58,8 @@ let initialState = {
         {
             title: "Peridona | adaptive landing page",
             id: 5,
-            bigImage: "projectImages/peridona.jpg",
-            smallImage: "projectImages/peridona-small.jpg",
+            bigImage: "peridona.jpg",
+            smallImage: "peridona-small.jpg",
             about: "Another pet project, typical business landing page, adaptive layouts for tablets and smartphones.",
             stack: ["JavaScript", "HTML5", "Less", "Gulp"],
             sourceLink: "https://github.com/kisikmisik/Landing--Peridona",
@@ -68,8 +68,8 @@ let initialState = {
         {
             title: "Scholarship | adaptive landing page",
             id: 6,
-            bigImage: "projectImages/scholarship.jpg",
-            smallImage: "projectImages/scholarship-small.jpg",
+            bigImage: "scholarship.jpg",
+            smallImage: "scholarship-small.jpg",
             about: "One of the first freelance projects. Adaptive design made using media queries.",
             stack: ["HTML/CSS", "PHP", "Gulp"],
             sourceLink: "https://github.com/kisikmisik/Commercial--Scholarship",
@@ -78,8 +78,8 @@ let initialState = {
         {
             title: "StudyUP | adaptive landing page",
             id: 7,
-            bigImage: "projectImages/studyUp.jpg",
-            smallImage: "projectImages/studyUp-small.jpg",
+            bigImage: "studyUp.jpg",
+            smallImage: "studyUp-small.jpg",
             about: "One of the freelance projects. Adaptive layouts done by media queries.",
             stack: ["HTML/CSS", "PHP", "Gulp"],
             sourceLink: "https://github.com/kisikmisik/Commercial--StudyUp",
@@ -88,8 +88,8 @@ let initialState = {
         {
             title: "Space Tennis | HTML game",
             id: 8,
-            bigImage: "projectImages/tennis.jpg",
-            smallImage: "projectImages/tennis-small.jpg",
+            bigImage: "tennis.jpg",
+            smallImage: "tennis-small.jpg",
             about: "My version of one of the first video games in the world. Made using ES6+ tools like classes and promises",
             stack: ["HTML5", "Canvas", "CSS", "JavaScript"],
             sourceLink: "https://github.com/kisikmisik/Commercial--StudyUp",
@@ -98,8 +98,8 @@ let initialState = {
         {
             title: "Snake | HTML game",
             id: 9,
-            bigImage: "projectImages/snake.jpg",
-            smallImage: "projectImages/snake-small.jpg",
+            bigImage: "snake.jpg",
+            smallImage: "snake-small.jpg",
             about: "Just classic.",
             stack: ["HTML5", "Canvas", "CSS", "JavaScript"],
             sourceLink: "https://github.com/kisikmisik/Study---snake",
@@ -108,8 +108,8 @@ let initialState = {
         {
             title: "Kvast | quick-made landing page",
             id: 10,
-            bigImage: "projectImages/kvast.jpg",
-            smallImage: "projectImages/kvast-small.jpg",
+            bigImage: "kvast.jpg",
+            smallImage: "kvast-small.jpg",
             about: "The point was to make a landing page as fast as possible. This one took 6 hours.",
             stack: ["HTML/CSS"],
             sourceLink: "https://github.com/kisikmisik/Study--Kvast",

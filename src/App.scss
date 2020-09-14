@@ -1,8 +1,7 @@
 $main-blue: #0077b5;
-$phone-width: 700px;
+$phone-width: 800px;
 .main-wrapper {
   margin: 0 auto;
-  box-sizing: border-box;
   padding: 0 15px;
   display: grid;
   grid-template-rows: 80px 600px;
@@ -10,7 +9,11 @@ $phone-width: 700px;
   @media (max-width: $phone-width) {
     padding: 0;
     width: 95%;
+    //overflow-y: hidden;
   }
+}
+.main-wrapper::-webkit-scrollbar {
+  display: none;
 }
 
 .button {
@@ -27,12 +30,18 @@ $phone-width: 700px;
 
 .perspective {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+.perspective::-webkit-scrollbar {
+  display: none;
 }
 
 .outer-left {

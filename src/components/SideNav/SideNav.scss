@@ -104,7 +104,7 @@
   opacity: 1;
   transform: scale(1.2);
   &:before {
-    z-index: -1;
+    z-index: 500;
     content: "";
     display: block;
     height: 7px;
@@ -112,8 +112,9 @@
     position: absolute;
     top: 4px;
     left: 59px;
-    opacity: 100%;
-    background-image: url("../../assets/img/circle-blue.svg");
+    opacity: 1;
+    background: #0f33ff;
+    border-radius: 50%;
   }
   @media (max-width: 800px) {
     &:before {

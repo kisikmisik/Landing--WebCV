@@ -2,34 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df8fbb13-e1ea-480b-a4b3-350f9f0929d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Resume-Volodymyr-Nofenko.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projectImages/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projectImages/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projectImages/pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/catEnergy-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/catEnergy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/device-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/device.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/kekstagram-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/kekstagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/kvast-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/kvast.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/macopedia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/myWeb-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/myWeb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/peridona-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/peridona.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scholarship-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scholarship.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/snake-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/snake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/socialNetwork-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/socialNetwork.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/studyUp-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/studyUp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tennis-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tennis.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/catEnergy-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/catEnergy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/device-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/device.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/kekstagram-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/kekstagram.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/kvast-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/kvast.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/macopedia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/myWeb-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/myWeb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/peridona-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/peridona.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/pin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/scholarship-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/scholarship.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/snake-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/snake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/socialNetwork-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/socialNetwork.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/studyUp-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/studyUp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/tennis-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/projectImages/tennis.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/close.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OuterNav/OuterNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OuterNav/OuterNav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OuterNav/OuterNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OuterNav/OuterNav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SideNav/SideNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideNav/SideNav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactPopup/ContactPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactPopup/ContactPopup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactPopup/ContactPopup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactPopup/ContactPopup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactSlide.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactSlide.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactSlide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/ContactSlide/ContactSlide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sliders/HireSlide/HireSlide.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/HireSlide/HireSlide.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/HireSlide/HireSlide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/HireSlide/HireSlide.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/HomeSlide/HomeSlide.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/HomeSlide/HomeSlide.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/HomeSlide/HomeSlide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/HomeSlide/HomeSlide.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/Sliders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/Sliders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Filters/Filters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Filters/Filters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Filters/Filters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Filters/Filters.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/Project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/Project.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/ProjectPopup/ProjectPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/ProjectPopup/ProjectPopup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/ProjectPopup/ProjectPopup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/Portfolio/Project/ProjectPopup/ProjectPopup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/WorksSlide.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/WorksSlide.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/WorksSlide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sliders/WorksSlide/WorksSlide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/mainReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/mainReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +103,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -90,7 +137,10 @@
       <workItem from="1599312805888" duration="14387000" />
       <workItem from="1599350702000" duration="19114000" />
       <workItem from="1599462921475" duration="29531000" />
-      <workItem from="1599717159248" duration="20755000" />
+      <workItem from="1599717159248" duration="22267000" />
+      <workItem from="1599806355941" duration="3969000" />
+      <workItem from="1599928313886" duration="15446000" />
+      <workItem from="1600058971937" duration="14898000" />
     </task>
     <servers />
   </component>
@@ -109,9 +159,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1599340704408" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599804459029">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600090628708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599804459029" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600090628708" />
   </component>
 </project>

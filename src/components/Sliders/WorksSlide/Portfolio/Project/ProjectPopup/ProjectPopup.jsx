@@ -3,7 +3,7 @@ import styles from "./ProjectPopup.scss"
 
 let ProjectPopup = (props) => {
         return (
-            <article className="portfolio__item-popup project">
+            <article onClick={() => props.changeProjectPopupStatus(false)} className="portfolio__item-popup project">
                 <div className="project__wrapper">
                     <div className="project__preview-wrapper">
                         <img src={props.clickedProject.bigImage}
@@ -32,7 +32,6 @@ let ProjectPopup = (props) => {
                                className="project__link-code link-button">Source code</a>
                         </div>
                     </div>
-                    <button onClick={() => props.changeProjectPopupStatus(false)} className="project__close"/>
                 </div>
             </article>
         )

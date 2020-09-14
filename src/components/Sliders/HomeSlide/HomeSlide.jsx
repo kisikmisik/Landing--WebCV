@@ -16,13 +16,13 @@ let HomeSlide = (props) => {
                 </div>
             </div>
             <div className="home__links">
-                <a href="https://www.linkedin.com/in/vnofenko/"
+                <a target="_blank" href="https://www.linkedin.com/in/vnofenko/"
                    className="home__link--linkedin link-button">
                     <img src={linkedinImg} alt="linkedin icon" width="30"/>
                     <span>linkedin</span>
                 </a>
                 <a href="#slide-2" className="button home__link--portfolio">Portfolio</a>
-                <a href="https://github.com/kisikmisik"
+                <a target="_blank" href="https://github.com/kisikmisik"
                    className="home__link--github link-button">
                     <img src={githubImg} alt="github icon" width="35"/>
                     <span>github</span>

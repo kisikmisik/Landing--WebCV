@@ -7,6 +7,9 @@
 .home__top-wrapper {
   box-sizing: border-box;
   margin-bottom: 100px;
+  @media (max-width: 800px) {
+    margin-bottom: 50px;
+  }
 }
 .home__links {
   height: 200px;
@@ -28,6 +31,8 @@
   margin-top: 30px;
   margin-bottom: 90px;
   @media (max-width: 800px) {
+    margin-top: 20px;
+    margin-bottom: 50px;
     font-size: 47px;
     text-align: center;
   }
@@ -72,6 +77,9 @@
     display: block;
     border: 2px solid #0f33ff;
     box-sizing: border-box;
+    @media (max-width: 800px) {
+      background-color: #0f33ff;
+    }
   }
   &:after {
     content: "";
@@ -128,7 +136,7 @@
 }
 .home__swipe-wrapper {
   position: absolute;
-  bottom: 40px;
+  top: 430px;
   width: 100%;
   display: flex;
   justify-content: center;
