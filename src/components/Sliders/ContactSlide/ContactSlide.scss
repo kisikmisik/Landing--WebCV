@@ -46,6 +46,13 @@
   justify-content: space-between;
   padding: 30px 0;
   font-size: 14px;
+  a {
+    transition: all 250ms ease-in-out;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
   @media (max-width: 800px) {
     align-items: flex-start;
     padding-left: 25vw;
@@ -94,6 +101,12 @@
   border: none;
   cursor: pointer;
   font-family: "Proxima Nova Bold", Arial, sans-serif;
+  position: relative;
+  top: 0;
+  transition: all 350ms ease-in-out;
+  &:hover {
+    top: 5px;
+  }
   @media (max-width: 800px) {
     display: none;
   }

@@ -72,6 +72,13 @@
   text-transform: uppercase;
   background: #10a010;
   font-size: 14px;
+  transition: all 250ms ease-in-out;
+  &:hover {
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(16,160,16,1);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(16,160,16,1);
+    box-shadow: 0px 0px 16px 0px rgba(16,160,16,1);
+    transform: scale(1.1);
+  }
   @media (max-width: 800px) {
     //position: absolute;
     //bottom: -95px;

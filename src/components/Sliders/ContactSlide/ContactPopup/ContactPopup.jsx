@@ -1,13 +1,17 @@
 import React, {useState} from "react";
 import styles from "./ContactPopup.scss"
+import {useSpring, animated} from 'react-spring';
+
 
 let ContactPopup = (props) => {
     let [isMessageSent, changeMessageStatus] = useState(false)
     let handleSendClick = () => {
         changeMessageStatus(true);
     }
+    const animProps = useSpring({left: 65, transform: "scale(1)",
+        from: {left: 400, transform: "scale(0.2)"}, config: {duration: 350}})
     return (
-        <form className="contact-popup">
+        <animated.form style={animProps} className="contact-popup">
             <div className="contact-popup__wrapper">
                 <label className="contact-popup__input-wrapper">
                     <p className="contact-popup__label">Your email:</p>
@@ -35,7 +39,7 @@ let ContactPopup = (props) => {
                 <p className="contact-popup__sent">Thanks! I'll answer shortly.</p> :
                 <button onClick={handleSendClick} type="submit" className="contact-popup__send">Send message</button>
             }
-        </form>
+        </animated.form>
     )
 
 }

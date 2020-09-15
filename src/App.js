@@ -18,10 +18,11 @@ class App extends React.Component {
         let mainWrapper = document.getElementById('main-wrapper');
         mainWrapper.addEventListener('click', () => {
             if (mainWrapper.classList.contains('outer-left')) {
-            this.props.changeOuterMenuStatus(false);
+                this.props.changeOuterMenuStatus(false);
             }
         })
     }
+
     changeSideNav(sliderWrapper) {
         // this condition below checks how many pixels slider wrapper has been scrolled, and selects side nav item depending on that
         if (sliderWrapper.scrollTop < 50) {
@@ -34,28 +35,32 @@ class App extends React.Component {
             this.props.changeCurrentSlide(4)
         }
     }
+
     render() {
         return (
             <div className={this.props.isOuterMenu ? "perspective" : ""}>
                 <div id="main-wrapper" className={this.props.isOuterMenu ? "main-wrapper outer-left" : "main-wrapper"}>
                     <Header changeOuterMenuStatus={this.props.changeOuterMenuStatus}/>
+                    <Sliders currentSlide={this.props.currentSlide}
+                             projects={this.props.projects}
+                             filters={this.props.filters}/>
+
                     <SideNav changeCurrentSlide={this.props.changeCurrentSlide}
                              navItems={this.props.navItems}
                              currentSlide={this.props.currentSlide}/>
-                    <Sliders currentSlide={this.props.currentSlide}
-                             projects={this.props.projects}
-                             filters={this.props.filters} />
+
                 </div>
                 <OuterNav isOuterMenu={this.props.isOuterMenu}
                           currentSlide={this.props.currentSlide}
                           navItem={this.props.navItems}
-                          changeOuterMenuStatus={this.props.changeOuterMenuStatus} />
+                          changeOuterMenuStatus={this.props.changeOuterMenuStatus}/>
             </div>
 
 
         );
     }
 }
+
 let mapStateToProps = (state) => {
     return {
         currentSlide: state.mainReducer.currentSlide,

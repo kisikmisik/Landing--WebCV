@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./SideNav.scss"
+import {useSpring, animated} from 'react-spring';
 
 let SideNav = (props) => {
+    const animProps = useSpring({opacity: 1, marginLeft: 0, from: {opacity: 0, marginLeft: -500}, config: {duration: 1000}})
     return (
-        <nav className="side-nav">
+        <animated.nav className="side-nav" style={animProps}>
             <ol className="side-nav__list">
                 {props.navItems.map(item => <NavItem currentSlide={props.currentSlide}
                                                      name={item.name}
@@ -11,7 +13,7 @@ let SideNav = (props) => {
                                                      changeCurrentSlide={props.changeCurrentSlide}
                                                      key={item.name}/>)}
             </ol>
-        </nav>
+        </animated.nav>
     )
 }
 

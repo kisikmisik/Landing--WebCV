@@ -1,8 +1,8 @@
 .side-nav {
   z-index: 500;
   position: absolute;
-  left: 50px;
-  top: 90px;
+  left: 10px;
+  top: 50px;
   height: 600px;
   display: flex;
   @media (max-width: 800px) {
@@ -70,6 +70,11 @@
   display: flex;
   box-sizing: border-box;
   position: relative;
+  transition: all 250ms ease-in-out;
+
+  &:hover {
+      transform: scale(1.2);
+  }
 
   &:before {
     z-index: 20;

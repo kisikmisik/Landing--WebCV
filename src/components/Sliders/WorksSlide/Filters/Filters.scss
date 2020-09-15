@@ -16,6 +16,12 @@
   font-family: "Proxima Nova Bold", Arial, sans-serif;
   width: 100px;
   height: 45px;
+  position: relative;
+  top: 0;
+  transition: all 350ms ease-in-out;
+  &:hover {
+    top: 7px;
+  }
   @media (max-width: 700px) {
     font-size: 13px;
     width: 90px;

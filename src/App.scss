@@ -6,6 +6,7 @@ $phone-width: 800px;
   display: grid;
   grid-template-rows: 80px 600px;
   grid-template-areas: "header header header" "sliders sliders sliders";
+  transition: all 500ms ease-in-out;
   @media (max-width: $phone-width) {
     padding: 0;
     width: 95%;
@@ -51,6 +52,7 @@ $phone-width: 800px;
   position: absolute;
   left: -7%;
   width: 100%;
+  transition: all 500ms ease-in-out;
 
   &:after {
     content: "";
