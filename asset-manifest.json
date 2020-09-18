@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Landing--WebCV/static/css/main.3736b6e3.chunk.css",
+    "main.css": "/Landing--WebCV/static/css/main.831a0c44.chunk.css",
     "main.js": "/Landing--WebCV/static/js/main.97f7d217.chunk.js",
     "main.js.map": "/Landing--WebCV/static/js/main.97f7d217.chunk.js.map",
     "runtime-main.js": "/Landing--WebCV/static/js/runtime-main.a967a8c7.js",
@@ -8,9 +8,9 @@
     "static/js/2.d3c75d6a.chunk.js": "/Landing--WebCV/static/js/2.d3c75d6a.chunk.js",
     "static/js/2.d3c75d6a.chunk.js.map": "/Landing--WebCV/static/js/2.d3c75d6a.chunk.js.map",
     "index.html": "/Landing--WebCV/index.html",
-    "precache-manifest.f9cb896f863d402518c1d9fcd7d3df26.js": "/Landing--WebCV/precache-manifest.f9cb896f863d402518c1d9fcd7d3df26.js",
+    "precache-manifest.00a833b467abe13a8678f295e7dafa0f.js": "/Landing--WebCV/precache-manifest.00a833b467abe13a8678f295e7dafa0f.js",
     "service-worker.js": "/Landing--WebCV/service-worker.js",
-    "static/css/main.3736b6e3.chunk.css.map": "/Landing--WebCV/static/css/main.3736b6e3.chunk.css.map",
+    "static/css/main.831a0c44.chunk.css.map": "/Landing--WebCV/static/css/main.831a0c44.chunk.css.map",
     "static/js/2.d3c75d6a.chunk.js.LICENSE.txt": "/Landing--WebCV/static/js/2.d3c75d6a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Landing--WebCV/static/media/FontsFree-Net-Proxima-Nova-Light.ac51ad8a.otf",
     "static/media/HomeSlide.scss": "/Landing--WebCV/static/media/arrow.7a66caad.svg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.a967a8c7.js",
     "static/js/2.d3c75d6a.chunk.js",
-    "static/css/main.3736b6e3.chunk.css",
+    "static/css/main.831a0c44.chunk.css",
     "static/js/main.97f7d217.chunk.js"
   ]
 }
