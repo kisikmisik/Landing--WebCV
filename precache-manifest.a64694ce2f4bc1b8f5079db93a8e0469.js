@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3477d01e7ae56bf02cf13bde862ddab8",
+    "revision": "a6e25645a502e494101e30a7ca023deb",
     "url": "/Landing--WebCV/index.html"
   },
   {
-    "revision": "b497e6d7fbc030ba1910",
-    "url": "/Landing--WebCV/static/css/main.06c0ffb2.chunk.css"
+    "revision": "c622b49fed57cc762956",
+    "url": "/Landing--WebCV/static/css/main.c475c904.chunk.css"
   },
   {
     "revision": "95813bcdf18c4db5b6db",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Landing--WebCV/static/js/2.d3c75d6a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b497e6d7fbc030ba1910",
+    "revision": "c622b49fed57cc762956",
     "url": "/Landing--WebCV/static/js/main.d9ce5e15.chunk.js"
   },
   {
