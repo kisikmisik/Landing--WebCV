@@ -22,8 +22,10 @@ let NavItem = (props) => {
             return ""
         }
     }
+    let hideOuterMenu = () => {setTimeout(()=> {props.changeOuterMenuStatus(false)}, 700)
+    }
     return (
-        <li
+        <li onClick={hideOuterMenu}
             className={"main-nav__item " + isSelected()}>
             <a href={"#slide-" + props.number}>{props.name}</a>
         </li>

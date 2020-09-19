@@ -30,6 +30,11 @@
     position: relative;
   }
 }
+@keyframes movingLeftRight {
+  0%   {right: -25px}
+  50%  {right: -15px}
+  100% {right: -25px}
+}
 .works__swipe-wrapper {
   display: none;
   @media (max-width: 800px) {
@@ -50,6 +55,7 @@
         border-right: 2px solid white;
         border-bottom: 2px solid white;
         transform: rotate(-45deg);
+        animation: movingLeftRight 1s infinite;
       }
     }
   }

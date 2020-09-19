@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./HomeSlide.scss"
 import myPortrait from "../../../assets/img/me2.png"
 import linkedinImg from "../../../assets/img/linkedin.svg"
@@ -12,7 +12,7 @@ let HomeSlide = (props) => {
     return (
         <section id="slide-1" className="home slide slide--1">
             <div className="home__top-wrapper">
-                <h2 className="home__title">Hi,<br/> I am Vladimir,<br/>
+                <h2 className="home__title">Hi<br/> I am Vladimir<br/>
                     <a target="_blank"
                                 href="https://en.wikipedia.org/wiki/Web_developer">web developer</a>
                 </h2>
@@ -36,9 +36,6 @@ let HomeSlide = (props) => {
                     <img src={githubImg} alt="github icon" width="35"/>
                     <span>github</span>
                 </a>
-            </div>
-            <div className="home__swipe-wrapper">
-                <span className="home__swipe">Swipe up</span>
             </div>
         </section>
     )

@@ -2,16 +2,18 @@ import React, {useState} from "react";
 import styles from "./ContactPopup.scss"
 import {useSpring, animated} from 'react-spring';
 
-
 let ContactPopup = (props) => {
     let [isMessageSent, changeMessageStatus] = useState(false)
-    let handleSendClick = () => {
+    let handleSendClick = (evt) => {
         changeMessageStatus(true);
     }
     const animProps = useSpring({left: 65, transform: "scale(1)",
         from: {left: 400, transform: "scale(0.2)"}, config: {duration: 350}})
+
+
+
     return (
-        <animated.form style={animProps} className="contact-popup">
+        <animated.form style={animProps} id="contact__form" className="contact-popup">
             <div className="contact-popup__wrapper">
                 <label className="contact-popup__input-wrapper">
                     <p className="contact-popup__label">Your email:</p>

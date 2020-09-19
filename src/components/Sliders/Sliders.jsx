@@ -10,11 +10,14 @@ let Sliders = (props) => {
     const animProps = useSpring({opacity: 1, marginTop: -30,
         from: {opacity: 0, marginTop: -1000}, config: {duration: 800}})
     return (
-        <animated.main id='mainSliders' className="main" style={animProps}>
-            <HomeSlide/>
-            <WorksSlide projects={props.projects} filters={props.filters}/>
-            <ContactSlide/>
-            <HireSlide/>
+        <animated.main  className="main" style={animProps}>
+            <div id='mainSliders' className="main__sliders-wrapper">
+                <HomeSlide/>
+                <WorksSlide projects={props.projects} filters={props.filters}/>
+                <ContactSlide/>
+                <HireSlide/>
+            </div>
+
         </animated.main>
     )
 }

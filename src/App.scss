@@ -2,10 +2,10 @@ $main-blue: #0077b5;
 $phone-width: 800px;
 .main-wrapper {
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 100px 15px;
   display: grid;
-  grid-template-rows: 80px 600px;
-  grid-template-areas: "header header header" "sliders sliders sliders";
+  grid-template-rows: 100vh;
+  grid-template-areas: 'sliders';
   transition: all 500ms ease-in-out;
   @media (max-width: $phone-width) {
     padding: 0;

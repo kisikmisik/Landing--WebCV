@@ -1,7 +1,9 @@
+
 .filters {
   display: flex;
   justify-content: space-between;
   @media (max-width: 700px) {
+    transition: all 350ms ease-in-out;
     flex-direction: column;
     position: absolute;
     right: 0;

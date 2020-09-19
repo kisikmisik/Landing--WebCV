@@ -50,7 +50,7 @@
 }
 .contact-popup__wrapper {
   box-sizing: border-box;
-  padding: 30px 0;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -68,29 +68,30 @@
   color: white;
   height: 40px;
   width: 150px;
+  margin-bottom: 20px;
   cursor: pointer;
   text-transform: uppercase;
-  background: #10a010;
+  background: #0f33ff;
   font-size: 14px;
   transition: all 250ms ease-in-out;
   &:hover {
-    -webkit-box-shadow: 0px 0px 16px 0px rgba(16,160,16,1);
-    -moz-box-shadow: 0px 0px 16px 0px rgba(16,160,16,1);
-    box-shadow: 0px 0px 16px 0px rgba(16,160,16,1);
+    -webkit-box-shadow: 0px 0px 16px 0px #0f33ff;
+    -moz-box-shadow: 0px 0px 16px 0px #0f33ff;
+    box-shadow: 0px 0px 16px 0px #0f33ff;
     transform: scale(1.1);
   }
   @media (max-width: 800px) {
-    //position: absolute;
-    //bottom: -95px;
+    margin-bottom: 0;
     width: 100%;
     left: 0;
   }
 }
 .contact-popup__sent {
-  color: #10a010;
+  color: black;
   padding-left: 20px;
   height: 40px;
   margin: 0;
+  margin-bottom: 20px;
   box-sizing: border-box;
   padding-top: 0;
   position: relative;
@@ -101,11 +102,12 @@
     top: -10px;
     width: 30px;
     height: 30px;
-    background-image: url("../../../../assets/img/tick-green.svg");
+    background-image: url("../../../../assets/img/tick-black.svg");
     background-size: cover;
   }
   @media (max-width: 800px) {
     padding-left: 35px;
+    margin-bottom: 0;
     &:before {
       left: -5px;
       top: -9px;
@@ -121,4 +123,7 @@
   @media (max-width: 800px) {
     display: none;
   }
+}
+.contact-popup__input-wrapper {
+  margin-bottom: 10px;
 }
