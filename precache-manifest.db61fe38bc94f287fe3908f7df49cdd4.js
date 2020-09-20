@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14b0146932dee90b2d84aa871c4ea9e6",
+    "revision": "e312971c2aebaa205e1b598796fade0f",
     "url": "/Landing--WebCV/index.html"
   },
   {
-    "revision": "6467db7cf3c7daf8709c",
-    "url": "/Landing--WebCV/static/css/main.62a9af19.chunk.css"
+    "revision": "d8e2840cb3c5bfc7782e",
+    "url": "/Landing--WebCV/static/css/main.c5803edf.chunk.css"
   },
   {
-    "revision": "4c7c48c67406a36a82c9",
-    "url": "/Landing--WebCV/static/js/2.c159b89c.chunk.js"
+    "revision": "7fb6eb0dde1dff7a097d",
+    "url": "/Landing--WebCV/static/js/2.d5ecf3af.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Landing--WebCV/static/js/2.c159b89c.chunk.js.LICENSE.txt"
+    "url": "/Landing--WebCV/static/js/2.d5ecf3af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6467db7cf3c7daf8709c",
-    "url": "/Landing--WebCV/static/js/main.8adf9616.chunk.js"
+    "revision": "d8e2840cb3c5bfc7782e",
+    "url": "/Landing--WebCV/static/js/main.69087144.chunk.js"
   },
   {
     "revision": "1f548a24b5410f16ead9",
