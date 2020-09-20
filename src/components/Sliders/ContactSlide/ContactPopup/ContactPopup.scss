@@ -86,8 +86,9 @@
     left: 0;
   }
 }
-.contact-popup__sent {
-  color: black;
+
+.contact-popup__error, .contact-popup__pending, .contact-popup__sent {
+  color: red;
   padding-left: 20px;
   height: 40px;
   margin: 0;
@@ -95,6 +96,21 @@
   box-sizing: border-box;
   padding-top: 0;
   position: relative;
+
+  @media (max-width: 800px) {
+    padding-left: 35px;
+    margin-bottom: 0;
+    &:before {
+      left: -5px;
+      top: -9px;
+    }
+  }
+}
+.contact-popup__pending {
+  color: #0f33ff;
+}
+.contact-popup__sent {
+  color: black;
   &:before {
     content: "";
     position: absolute;
@@ -104,14 +120,6 @@
     height: 30px;
     background-image: url("../../../../assets/img/tick-black.svg");
     background-size: cover;
-  }
-  @media (max-width: 800px) {
-    padding-left: 35px;
-    margin-bottom: 0;
-    &:before {
-      left: -5px;
-      top: -9px;
-    }
   }
 }
 .contact__map {
