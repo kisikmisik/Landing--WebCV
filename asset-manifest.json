@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Landing--WebCV/static/css/main.d4c77c2b.chunk.css",
-    "main.js": "/Landing--WebCV/static/js/main.d9ce5e15.chunk.js",
-    "main.js.map": "/Landing--WebCV/static/js/main.d9ce5e15.chunk.js.map",
+    "main.css": "/Landing--WebCV/static/css/main.62a9af19.chunk.css",
+    "main.js": "/Landing--WebCV/static/js/main.3d74990d.chunk.js",
+    "main.js.map": "/Landing--WebCV/static/js/main.3d74990d.chunk.js.map",
     "runtime-main.js": "/Landing--WebCV/static/js/runtime-main.a967a8c7.js",
     "runtime-main.js.map": "/Landing--WebCV/static/js/runtime-main.a967a8c7.js.map",
-    "static/js/2.d3c75d6a.chunk.js": "/Landing--WebCV/static/js/2.d3c75d6a.chunk.js",
-    "static/js/2.d3c75d6a.chunk.js.map": "/Landing--WebCV/static/js/2.d3c75d6a.chunk.js.map",
+    "static/js/2.c159b89c.chunk.js": "/Landing--WebCV/static/js/2.c159b89c.chunk.js",
+    "static/js/2.c159b89c.chunk.js.map": "/Landing--WebCV/static/js/2.c159b89c.chunk.js.map",
     "index.html": "/Landing--WebCV/index.html",
-    "precache-manifest.024bd61cb59dfcc589475ee3d3496432.js": "/Landing--WebCV/precache-manifest.024bd61cb59dfcc589475ee3d3496432.js",
+    "precache-manifest.b949d4a9f8fa47958812eece217c76bb.js": "/Landing--WebCV/precache-manifest.b949d4a9f8fa47958812eece217c76bb.js",
     "service-worker.js": "/Landing--WebCV/service-worker.js",
-    "static/css/main.d4c77c2b.chunk.css.map": "/Landing--WebCV/static/css/main.d4c77c2b.chunk.css.map",
-    "static/js/2.d3c75d6a.chunk.js.LICENSE.txt": "/Landing--WebCV/static/js/2.d3c75d6a.chunk.js.LICENSE.txt",
+    "static/css/main.62a9af19.chunk.css.map": "/Landing--WebCV/static/css/main.62a9af19.chunk.css.map",
+    "static/js/2.c159b89c.chunk.js.LICENSE.txt": "/Landing--WebCV/static/js/2.c159b89c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Landing--WebCV/static/media/FontsFree-Net-Proxima-Nova-Light.ac51ad8a.otf",
     "static/media/HomeSlide.scss": "/Landing--WebCV/static/media/arrow.7a66caad.svg",
     "static/media/SideNav.scss": "/Landing--WebCV/static/media/circle.7ef0d73d.svg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a967a8c7.js",
-    "static/js/2.d3c75d6a.chunk.js",
-    "static/css/main.d4c77c2b.chunk.css",
-    "static/js/main.d9ce5e15.chunk.js"
+    "static/js/2.c159b89c.chunk.js",
+    "static/css/main.62a9af19.chunk.css",
+    "static/js/main.3d74990d.chunk.js"
   ]
 }

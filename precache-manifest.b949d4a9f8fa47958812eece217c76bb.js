@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51827ef7d9917af65e5b11980ccfe881",
+    "revision": "f057b8ff88cbb205a92317cb2733ed49",
     "url": "/Landing--WebCV/index.html"
   },
   {
-    "revision": "eec27c9dfeb9708fba83",
-    "url": "/Landing--WebCV/static/css/main.d4c77c2b.chunk.css"
+    "revision": "53371e013b7a46eec967",
+    "url": "/Landing--WebCV/static/css/main.62a9af19.chunk.css"
   },
   {
-    "revision": "95813bcdf18c4db5b6db",
-    "url": "/Landing--WebCV/static/js/2.d3c75d6a.chunk.js"
+    "revision": "4c7c48c67406a36a82c9",
+    "url": "/Landing--WebCV/static/js/2.c159b89c.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Landing--WebCV/static/js/2.d3c75d6a.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/Landing--WebCV/static/js/2.c159b89c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eec27c9dfeb9708fba83",
-    "url": "/Landing--WebCV/static/js/main.d9ce5e15.chunk.js"
+    "revision": "53371e013b7a46eec967",
+    "url": "/Landing--WebCV/static/js/main.3d74990d.chunk.js"
   },
   {
     "revision": "1f548a24b5410f16ead9",
